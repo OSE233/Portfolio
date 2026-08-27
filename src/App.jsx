@@ -1,0 +1,35 @@
+import { useState } from "react";
+import NotFound from "./Pages/NotFound";
+import Mobileprojects from "./Components/Mobileprojects";
+import Webprojects from "./Components/webprojects";
+import Profile from "./Components/Profile";
+import NavBar from "./Components/NavBar";
+import YtLinks from "./Components/YtLinks";
+
+const App =()=>{
+  return(
+       <div>
+
+  { /* NavBar */}
+     <NavBar />
+
+   {/* Profile */}
+     <Profile />
+
+    {/* WebProject */}
+     <Webprojects />
+
+     {/* Mobilerojects*/}
+    <Mobileprojects />
+
+    {/*  {Yt Links/Vid Ref} */}
+     <YtLinks />
+
+    
+     
+      </div>
+
+  )
+
+}
+export default App
