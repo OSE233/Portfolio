@@ -1,10 +1,10 @@
 import { useState } from "react";
 import NotFound from "./Pages/NotFound";
-import Mobileprojects from "./Components/Mobileprojects";
-import Webprojects from "./Components/webprojects";
 import Profile from "./Components/Profile";
 import NavBar from "./Components/NavBar";
 import YtLinks from "./Components/YtLinks";
+import Webprojects from "./Components/WebProjects";
+import Mobileprojects from "./Components/Mobileprojects";
 
 const App =()=>{
   return(
@@ -17,10 +17,10 @@ const App =()=>{
      <Profile />
 
     {/* WebProject */}
-     <Webprojects />
+     <Webprojects/>
 
      {/* Mobilerojects*/}
-    <Mobileprojects />
+    <Mobileprojects/>
 
     {/*  {Yt Links/Vid Ref} */}
      <YtLinks />
