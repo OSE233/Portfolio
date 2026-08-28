@@ -17,10 +17,10 @@ const App =()=>{
      <Profile />
 
     {/* WebProject */}
-     <Webprojects/>
+     <Webprojects />
 
      {/* Mobilerojects*/}
-    <Mobileprojects/>
+    <Mobileprojects />
 
     {/*  {Yt Links/Vid Ref} */}
      <YtLinks />

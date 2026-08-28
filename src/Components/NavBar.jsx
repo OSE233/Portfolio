@@ -2,7 +2,7 @@
 const NavBar=() =>{
     return(
         <div>
-        This is nav
+        This is my nav bar
         </div>
     )
 }
