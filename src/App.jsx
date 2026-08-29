@@ -3,8 +3,10 @@ import NotFound from "./Pages/NotFound";
 import Profile from "./Components/Profile";
 import NavBar from "./Components/NavBar";
 import YtLinks from "./Components/YtLinks";
-import Webprojects from "./Components/WebProjects";
+
 import Mobileprojects from "./Components/Mobileprojects";
+import Webprojects from "./Components/WebProjects";
+
 
 const App =()=>{
   return(
