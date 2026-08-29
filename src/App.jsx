@@ -25,8 +25,6 @@ const App =()=>{
     {/*  {Yt Links/Vid Ref} */}
      <YtLinks />
 
-    
-     
       </div>
 
   )
