@@ -19,13 +19,14 @@ const Profile=() =>{
         "A music discovery app that recommends songs based on different emotions and moods.",
       icon: "🎧",
       tech: "React • JavaScript • Vite",
+      website: "https://harmona2026.vercel.app",
     },
     {
-      title: "",
-      description:
-        ".",
+      title: "Anime Diary",
+      description: "All about animes i've watched",
       icon: "🌐",
       tech: "React • CSS • JavaScript",
+      website: "https://animediary2.vercel.app/", 
     },
     {
       title: "Coming Soon",

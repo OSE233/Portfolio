@@ -8,6 +8,14 @@ const Webprojects = () => {
       tech: "React • JavaScript • Vite",
       icon: "🎧",
     },
+    {
+      name: "Anime diary",
+      description:
+        "An anime website featuring animes i've watched.",
+      website: "https://animediary2.vercel.app/",
+      tech: "React • JavaScript • Vite",
+      icon: "📖",
+    },
   ];
 
   return (
@@ -197,6 +205,11 @@ const Webprojects = () => {
       </div>
 
     </section>
+
+    
+
+
+
   );
 };
 
