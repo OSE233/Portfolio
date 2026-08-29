@@ -1,44 +1,21 @@
 const Webprojects = () => {
   const webProjects = [
     {
-      title: "Harmona",
+      name: "Harmona",
       description:
-        "A music discovery app that recommends songs based on different emotions and moods.",
-      icon: "🎧",
-      tech: "React • JavaScript • Vite",
+        "A music web app designed to help people discover songs based on their emotions and feelings.",
       website: "https://harmona2026.vercel.app",
+      tech: "React • JavaScript • Vite",
+      icon: "🎧",
     },
     {
-      title: "Anime Diary",
-      description: "All about animes i've watched",
-      icon: "🌐",
-      tech: "React • CSS • JavaScript",
-      website: "https://animediary2.vercel.app/", 
-    },
-    {
-      title: "Coming Soon",
+      name: "Anime diary",
       description:
-        "Another project is currently being created. Stay tuned!",
-      icon: "🚀",
-      tech: "Something exciting",
+        "An anime website featuring animes i've watched.",
+      website: "https://https://animediary2.vercel.app/",
+      tech: "React • JavaScript • Vite",
+      icon: "🎧",
     },
-
-    // {
-    //   name: "Harmona",
-    //   description:
-    //     "A music web app designed to help people discover songs based on their emotions and feelings.",
-    //   website: "https://harmona2026.vercel.app",
-    //   tech: "React • JavaScript • Vite",
-    //   icon: "🎧",
-    // },
-    // {
-    //   name: "Anime diary",
-    //   description:
-    //     "An anime website featuring animes i've watched.",
-    //   website: "https://animediary2.vercel.app/",
-    //   tech: "React • JavaScript • Vite",
-    //   icon: "📖",
-    // },
   ];
 
   return (
@@ -228,8 +205,6 @@ const Webprojects = () => {
       </div>
 
     </section>
-
-    
 
 
 
