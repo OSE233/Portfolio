@@ -11,30 +11,7 @@ const Profile=() =>{
     });
   };
 
-  const projects = [
-    {
-      title: "Harmona",
-      description:
-        "A music discovery app that recommends songs based on different emotions and moods.",
-      icon: "🎧",
-      tech: "React • JavaScript • Vite",
-      website: "https://harmona2026.vercel.app",
-    },
-    {
-      title: "Anime Diary",
-      description: "All about animes i've watched",
-      icon: "🌐",
-      tech: "React • CSS • JavaScript",
-      website: "https://animediary2.vercel.app/", 
-    },
-    {
-      title: "Coming Soon",
-      description:
-        "Another project is currently being created. Stay tuned!",
-      icon: "🚀",
-      tech: "Something exciting",
-    },
-  ];
+
 
   const skills = [
     "JavaScript",
@@ -610,52 +587,6 @@ const Profile=() =>{
             >
               {skill}
             </div>
-          ))}
-
-        </div>
-
-      </section>
-
-
-      {/* ================= PROJECTS ================= */}
-
-      <section id="projects">
-
-        <div className="section-label">
-          MY WORK
-        </div>
-
-        <h2 className="section-title">
-          Featured Projects
-        </h2>
-
-        <div className="projects-grid">
-
-          {projects.map((project) => (
-
-            <div
-              className="project-card"
-              key={project.title}
-            >
-
-              <div className="project-icon">
-                {project.icon}
-              </div>
-
-              <h3>
-                {project.title}
-              </h3>
-
-              <p>
-                {project.description}
-              </p>
-
-              <div className="project-tech">
-                {project.tech}
-              </div>
-
-            </div>
-
           ))}
 
         </div>

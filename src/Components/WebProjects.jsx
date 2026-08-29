@@ -11,7 +11,7 @@ const Webprojects = () => {
     {
       name: "Anime diary",
       description:
-        "An anime website featuring animes i've watched.",
+        "An anime website featuring animes i've watchedted in 2025, animes for 2026 would be posted soon.  ",
       website: "https://https://animediary2.vercel.app/",
       tech: "React • JavaScript • Vite",
       icon: "🎧",
