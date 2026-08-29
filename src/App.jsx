@@ -7,7 +7,6 @@ import Mobileprojects from "./Components/MobileProjects";
 import Webprojects from "./Components/WebProjects";
 
 
-
 const App =()=>{
   return(
        <div>
@@ -15,13 +14,12 @@ const App =()=>{
   { /* NavBar */}
      <NavBar />
 
-<Webprojects />
 
    {/* Profile */}
      <Profile />
 
     {/* WebProject */}
-     
+     <Webprojects />
 
      {/* Mobilerojects*/}
     <Mobileprojects />
