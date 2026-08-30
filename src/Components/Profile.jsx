@@ -7,11 +7,9 @@ const Profile=() =>{
     setActiveSection(section);
 
     document.getElementById(section)?.scrollIntoView({
-      behavior: "smooth",
+      behavior: "smooth"
     });
   };
-
-
 
   const skills = [
     "JavaScript",
@@ -235,7 +233,7 @@ const Profile=() =>{
         section {
           max-width: 1200px;
           margin: auto;
-          padding: 110px 7%;
+          padding: 70px 7%;
         }
 
         .section-label {
